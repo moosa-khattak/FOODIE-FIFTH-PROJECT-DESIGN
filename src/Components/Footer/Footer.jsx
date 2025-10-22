@@ -23,7 +23,7 @@ const Footer = () => {
       },
     ];
   return (
-    <section className="bg-gray-100 dark:bg-gray-900 py-12">
+    <footer className="bg-gray-100 dark:bg-gray-900 py-12">
       <div className="container  dark:text-white">
         <div className="my-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
           {/* company details    */}
@@ -93,7 +93,7 @@ const Footer = () => {
             <p>&copy; CopyRight 2025 .  All Right Reserved || Made With ❤️ by Moosa  </p>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

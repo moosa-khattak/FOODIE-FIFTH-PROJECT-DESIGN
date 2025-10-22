@@ -24,11 +24,13 @@ const App = () => {
   return (
     <div className="dark:bg-gray-900 duration-300">
       <Navbar />
-      <Hero />
-      <Services />
-      <Banner />
-      <Appstore />
-      <Testimonial />
+      <main>
+        <Hero />
+        <Services />
+        <Banner />
+        <Appstore />
+        <Testimonial />
+      </main>
       <Footer />
     </div>
   );
